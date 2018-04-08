@@ -6,8 +6,6 @@ without needing to start an Async Task like the official documentation suggests.
 Add these files to your build.gradle (Module:app) folder
 
     implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    // Because RxAndroid releases are few and far between, it is recommended you also
-    // explicitly depend on RxJava's latest version for bug fixes and new features.
     implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
 
 To use the library is very straight to the point, simply call the ImageManager instance and choose wether to upload the image in 
